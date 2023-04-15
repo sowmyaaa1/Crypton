@@ -1,2 +1,0 @@
-# Crypton
-Cryptocurrency Global stats
