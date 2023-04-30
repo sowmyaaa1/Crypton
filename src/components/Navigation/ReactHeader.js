@@ -35,11 +35,7 @@ class ReactHeader extends Component {
                 <HomeOutlined style={iconStyle}/>Home
               </Link>
             </Menu.Item>
-            <Menu.Item key="dashboard" onClick={() => this.props.setHeaderMenuItem('dashboard')}>
-              <Link to="/trending-coins">
-                <AreaChartOutlined style={iconStyle}/>Dashboard
-              </Link>
-            </Menu.Item>
+            
 
           </Menu>
         </Header>
