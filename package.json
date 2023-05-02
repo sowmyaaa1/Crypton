@@ -1,5 +1,6 @@
 {
   "name": "coin-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +9,7 @@
     "axios": "^0.21.2",
     "chart.js": "^2.8.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
+    "react": "^18.2.0",
     "react-chartjs-2": "^2.7.6",
     "react-dom": "^16.8.6",
     "react-highlight-words": "^0.16.0",
