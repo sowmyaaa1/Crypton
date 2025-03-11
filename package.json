@@ -4,6 +4,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/http-client": "^2.2.3",
     "@ant-design/icons": "^5.0.1",
     "antd": "^4.21.7",
     "axios": "^0.21.2",
