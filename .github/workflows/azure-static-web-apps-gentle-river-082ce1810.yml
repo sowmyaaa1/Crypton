@@ -30,6 +30,13 @@ jobs:
       - name: Run ESLint Fix
         run: npm run lint -- --fix
 
+      - name: Run ESLint Fix
+        run: |
+             npm run lint -- --fix
+             git config --global user.email "github-actions[bot]@users.noreply.github.com"
+             git config --global user.name "GitHub Actions"
+             git commit -am "Auto-fix lint errors" || echo "No changes to commit"
+
       - name: Install OIDC Client from Core Package
         run: npm install @actions/core@1.6.0 @actions/http-client
 
