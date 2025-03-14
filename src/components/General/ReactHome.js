@@ -160,24 +160,7 @@ class ReactHome extends Component {
                 xl={8}
                 style={colStyle}
              >
-                <Link to='/global'>
-                 <Card
-                  style={{ border: 'none' }}
-                  cover={
-                    <img
-                      alt="Home page crypto svg"
-                      style={{
-                        padding: '2rem',
-                        maxWidth: '160px',
-                        margin: 'auto'
-                      }}
-                      src={svgWorldwide}
-                    />
-                  }
-                ><h2>Global Data</h2>
-                  <p>'Data availability on a global scale'</p>
-                </Card>
-                </Link>
+                
               </Col>
           </Row>
           </Content>
